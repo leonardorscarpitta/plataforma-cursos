@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+li {
+  list-style: none;
+}
+
+.bg-default {
+  background: #0074FE no-repeat;
+}
