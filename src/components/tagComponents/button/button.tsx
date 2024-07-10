@@ -8,7 +8,7 @@ interface ButtonProps {
 
 export default function Button( {children, pageHref}: ButtonProps) {
   return (
-      <Link className="text-center text-lg bg-default py-1 rounded-lg font-bold text-white" href={pageHref}>
+      <Link className="hover:opacity-70 text-center text-lg bg-default p-1 rounded-lg font-bold text-white" href={pageHref}>
         {children}
       </Link>
   )
