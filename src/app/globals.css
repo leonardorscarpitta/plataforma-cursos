@@ -2,8 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
-li {
+* {
   list-style: none;
+  transition: all .4s;
+}
+
+body {
+  --tw-bg-opacity: 1;
+  background-color: rgb(241 245 249 / var(--tw-bg-opacity));
 }
 
 .bg-default {

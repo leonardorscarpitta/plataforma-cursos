@@ -5,7 +5,7 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Rocha Cursos",
+  title: "Plataforma de Cursos",
   description: "Desenvolvido utilizando ReactJS, TailwindCSS, TypeScript & NextJS!",
 };
 
